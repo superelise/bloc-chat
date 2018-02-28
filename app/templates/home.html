@@ -1,0 +1,22 @@
+<!-- <section id="sidebar">
+    <h1 class="sidebar-title">Bloc Chat</h1>
+    
+    <div class="room-list">
+        <div ng-repeat="room in home.rooms">
+        </div>
+    </div>
+    
+</section> -->
+
+<!--<section>
+    <div ng-repeat="rooms in home.rooms">
+        <div>
+            Room {{home.rooms[$index].$id}}
+        </div>
+    </div>
+</section>
+-->
+
+<section ng-repeat = "rooms in home.rooms">
+    <div> Room {{ home.rooms[$index].$id}}</div>
+</section>
